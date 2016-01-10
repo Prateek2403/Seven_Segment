@@ -1,0 +1,493 @@
+Archive member included because of file (symbol)
+
+ti/driverlib/gcc/libdriver.a(gpio.o)
+                              Segment_Test.o (GPIOPinWrite)
+ti/driverlib/gcc/libdriver.a(interrupt.o)
+                              ti/driverlib/gcc/libdriver.a(gpio.o) (IntRegister)
+ti/driverlib/gcc/libdriver.a(sysctl.o)
+                              Segment_Test.o (SysCtlPeripheralReady)
+ti/driverlib/gcc/libdriver.a(cpu.o)
+                              ti/driverlib/gcc/libdriver.a(interrupt.o) (CPUcpsid)
+
+Allocating common symbols
+Common symbol       size              file
+
+ret_button          0x4               Segment_Test.o
+ui32Loop            0x4               Segment_Test.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 Segment_Test.o
+ .data          0x0000000000000000        0x0 Segment_Test.o
+ .bss           0x0000000000000000        0x0 Segment_Test.o
+ .data.cont     0x0000000000000000        0x1 Segment_Test.o
+ .bss.counter   0x0000000000000000        0x4 Segment_Test.o
+ .text          0x0000000000000000        0x0 ti/startup.o
+ .data          0x0000000000000000        0x0 ti/startup.o
+ .bss           0x0000000000000000        0x0 ti/startup.o
+ .text          0x0000000000000000        0x0 ti/utils/ustdlib.o
+ .data          0x0000000000000000        0x0 ti/utils/ustdlib.o
+ .bss           0x0000000000000000        0x0 ti/utils/ustdlib.o
+ .text.ucmptime
+                0x0000000000000000       0x4e ti/utils/ustdlib.o
+ .text.ustrncpy
+                0x0000000000000000       0x2e ti/utils/ustdlib.o
+ .text.uvsnprintf
+                0x0000000000000000      0x248 ti/utils/ustdlib.o
+ .text.usprintf
+                0x0000000000000000       0x1e ti/utils/ustdlib.o
+ .text.usnprintf
+                0x0000000000000000       0x1a ti/utils/ustdlib.o
+ .text.ulocaltime
+                0x0000000000000000       0xa4 ti/utils/ustdlib.o
+ .text.umktime  0x0000000000000000       0x52 ti/utils/ustdlib.o
+ .text.ustrtoul
+                0x0000000000000000       0xb4 ti/utils/ustdlib.o
+ .text.ustrtof  0x0000000000000000      0x154 ti/utils/ustdlib.o
+ .text.ustrlen  0x0000000000000000        0xe ti/utils/ustdlib.o
+ .text.ustrncasecmp
+                0x0000000000000000       0x48 ti/utils/ustdlib.o
+ .text.ustrcasecmp
+                0x0000000000000000        0x8 ti/utils/ustdlib.o
+ .text.ustrncmp
+                0x0000000000000000       0x2c ti/utils/ustdlib.o
+ .text.ustrstr  0x0000000000000000       0x2c ti/utils/ustdlib.o
+ .text.ustrcmp  0x0000000000000000        0x8 ti/utils/ustdlib.o
+ .text.usrand   0x0000000000000000        0xc ti/utils/ustdlib.o
+ .text.urand    0x0000000000000000       0x1c ti/utils/ustdlib.o
+ .rodata.g_psDaysToMonth
+                0x0000000000000000       0x30 ti/utils/ustdlib.o
+ .rodata.str1.1
+                0x0000000000000000       0x17 ti/utils/ustdlib.o
+ .data.g_iRandomSeed
+                0x0000000000000000        0x4 ti/utils/ustdlib.o
+ .rodata.g_pfExponents
+                0x0000000000000000       0x18 ti/utils/ustdlib.o
+ .comment       0x0000000000000000       0x20 ti/utils/ustdlib.o
+ .ARM.attributes
+                0x0000000000000000       0x37 ti/utils/ustdlib.o
+ .text          0x0000000000000000        0x0 ti/drivers/buttons.o
+ .data          0x0000000000000000        0x0 ti/drivers/buttons.o
+ .bss           0x0000000000000000        0x0 ti/drivers/buttons.o
+ .text          0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .data          0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .bss           0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text._GPIOIntNumberGet
+                0x0000000000000000       0x44 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIODirModeGet
+                0x0000000000000000       0x24 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntTypeSet
+                0x0000000000000000       0x5a ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntTypeGet
+                0x0000000000000000       0x4a ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPadConfigGet
+                0x0000000000000000       0xc8 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntEnable
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntDisable
+                0x0000000000000000        0xe ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntStatus
+                0x0000000000000000        0xe ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntClear
+                0x0000000000000000        0x6 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntRegister
+                0x0000000000000000       0x1a ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOIntUnregister
+                0x0000000000000000       0x16 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinRead
+                0x0000000000000000        0x6 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeADC
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeCAN
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeComparator
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeComparatorOutput
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeDIVSCLK
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeEPI
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeEthernetLED
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeEthernetMII
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeGPIOInput
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeGPIOOutputOD
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeHibernateRTCCLK
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeI2C
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeI2CSCL
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeLCD
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeOneWire
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypePWM
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeQEI
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeSSI
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeTimer
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeTrace
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeUART
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeUSBAnalog
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeUSBDigital
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeWakeHigh
+                0x0000000000000000       0x1e ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinTypeWakeLow
+                0x0000000000000000       0x1e ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinWakeStatus
+                0x0000000000000000        0x6 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOPinConfigure
+                0x0000000000000000       0x48 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIODMATriggerEnable
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIODMATriggerDisable
+                0x0000000000000000        0xe ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOADCTriggerEnable
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text.GPIOADCTriggerDisable
+                0x0000000000000000        0xe ti/driverlib/gcc/libdriver.a(gpio.o)
+ .rodata.g_ppui32GPIOIntMapSnowflake
+                0x0000000000000000       0xc0 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .rodata.g_pui32GPIOBaseAddrs
+                0x0000000000000000       0x90 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .rodata.g_ppui32GPIOIntMapBlizzard
+                0x0000000000000000       0xc0 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .text          0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .data          0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .bss           0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text._IntDefaultHandler
+                0x0000000000000000        0x2 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntMasterEnable
+                0x0000000000000000        0xe ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntMasterDisable
+                0x0000000000000000        0xe ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntRegister
+                0x0000000000000000       0x30 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntUnregister
+                0x0000000000000000       0x14 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityGroupingSet
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityGroupingGet
+                0x0000000000000000       0x24 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPrioritySet
+                0x0000000000000000       0x28 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityGet
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntEnable
+                0x0000000000000000       0x60 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntDisable
+                0x0000000000000000       0x60 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntIsEnabled
+                0x0000000000000000       0x64 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPendSet
+                0x0000000000000000       0x50 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPendClear
+                0x0000000000000000       0x40 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityMaskSet
+                0x0000000000000000        0x4 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntPriorityMaskGet
+                0x0000000000000000        0x4 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text.IntTrigger
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pui32Priority
+                0x0000000000000000       0x20 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pui32Dii16Regs
+                0x0000000000000000       0x14 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pui32PendRegs
+                0x0000000000000000       0x14 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ vtable         0x0000000000000000      0x400 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pui32Regs
+                0x0000000000000000       0x9c ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pui32EnRegs
+                0x0000000000000000       0x14 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .rodata.g_pui32UnpendRegs
+                0x0000000000000000       0x14 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .comment       0x0000000000000000       0x20 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 ti/driverlib/gcc/libdriver.a(interrupt.o)
+ .text          0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .data          0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .bss           0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text._SysCtlMemTimingGet
+                0x0000000000000000       0x28 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlSRAMSizeGet
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlFlashSizeGet
+                0x0000000000000000       0x3c ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlFlashSectorSizeGet
+                0x0000000000000000       0x38 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralPresent
+                0x0000000000000000       0x28 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralPowerOn
+                0x0000000000000000       0x24 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralPowerOff
+                0x0000000000000000       0x24 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralReset
+                0x0000000000000000       0x3c ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralDisable
+                0x0000000000000000       0x24 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralSleepEnable
+                0x0000000000000000       0x24 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralSleepDisable
+                0x0000000000000000       0x24 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralDeepSleepEnable
+                0x0000000000000000       0x24 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralDeepSleepDisable
+                0x0000000000000000       0x24 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPeripheralClockGating
+                0x0000000000000000       0x48 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntRegister
+                0x0000000000000000       0x14 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntUnregister
+                0x0000000000000000       0x12 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntEnable
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntDisable
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntClear
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlIntStatus
+                0x0000000000000000       0x14 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlLDOSleepSet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlLDOSleepGet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlLDODeepSleepSet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlLDODeepSleepGet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlSleepPowerSet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleepPowerSet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlReset
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlSleep
+                0x0000000000000000        0x4 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleep
+                0x0000000000000000       0x20 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlResetCauseGet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlResetCauseClear
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlMOSCConfigSet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPIOSCCalibrate
+                0x0000000000000000       0x48 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlResetBehaviorSet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlResetBehaviorGet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlClockFreqSet
+                0x0000000000000000      0x244 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlClockSet
+                0x0000000000000000      0x11c ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlClockGet
+                0x0000000000000000      0x12c ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleepClockSet
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlDeepSleepClockConfigSet
+                0x0000000000000000       0x60 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPWMClockSet
+                0x0000000000000000       0x14 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlPWMClockGet
+                0x0000000000000000       0x18 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlGPIOAHBEnable
+                0x0000000000000000       0x18 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlGPIOAHBDisable
+                0x0000000000000000       0x1c ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlUSBPLLEnable
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlUSBPLLDisable
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlVoltageEventConfig
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlVoltageEventStatus
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlVoltageEventClear
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlNMIStatus
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlNMIClear
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlClockOutConfig
+                0x0000000000000000       0x10 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text.SysCtlAltClkConfig
+                0x0000000000000000        0xc ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pppui32XTALtoVCO
+                0x0000000000000000      0x120 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pui32VCOFrequencies
+                0x0000000000000000        0x8 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_sXTALtoMEMTIM
+                0x0000000000000000       0x30 ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .rodata.g_pui32Xtals
+                0x0000000000000000       0x6c ti/driverlib/gcc/libdriver.a(sysctl.o)
+ .text          0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .data          0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .bss           0x0000000000000000        0x0 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUcpsid
+                0x0000000000000000        0x8 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUprimask
+                0x0000000000000000        0x6 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUcpsie
+                0x0000000000000000        0x8 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUwfi   0x0000000000000000        0x4 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUbasepriSet
+                0x0000000000000000        0x6 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .text.CPUbasepriGet
+                0x0000000000000000        0x6 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .comment       0x0000000000000000       0x20 ti/driverlib/gcc/libdriver.a(cpu.o)
+ .ARM.attributes
+                0x0000000000000000       0x37 ti/driverlib/gcc/libdriver.a(cpu.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x0000000000000000 0x0000000000040000 xr
+SRAM             0x0000000020000000 0x0000000000008000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+
+.text           0x0000000000000000      0x8a4
+                0x0000000000000000                _text = .
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000      0x26c ti/startup.o
+                0x0000000000000000                g_pfnVectors
+ *(.text*)
+ .text.delay_debounce
+                0x000000000000026c       0x60 Segment_Test.o
+                0x000000000000026c                delay_debounce
+ .text.Reset_Segment
+                0x00000000000002cc       0x5c Segment_Test.o
+                0x00000000000002cc                Reset_Segment
+ .text.startup.main
+                0x0000000000000328      0x268 Segment_Test.o
+                0x0000000000000328                main
+ .text.NmiSR    0x0000000000000590        0x2 ti/startup.o
+ .text.FaultISR
+                0x0000000000000592        0x2 ti/startup.o
+ .text.IntDefaultHandler
+                0x0000000000000594        0x2 ti/startup.o
+ *fill*         0x0000000000000596        0x2 
+ .text.ResetISR
+                0x0000000000000598       0x50 ti/startup.o
+                0x0000000000000598                ResetISR
+ .text.ButtonsPoll
+                0x00000000000005e8       0x7c ti/drivers/buttons.o
+                0x00000000000005e8                ButtonsPoll
+ .text.ButtonsInit
+                0x0000000000000664       0x6c ti/drivers/buttons.o
+                0x0000000000000664                ButtonsInit
+ .text.GPIODirModeSet
+                0x00000000000006d0       0x2e ti/driverlib/gcc/libdriver.a(gpio.o)
+                0x00000000000006d0                GPIODirModeSet
+ .text.GPIOPadConfigSet
+                0x00000000000006fe      0x130 ti/driverlib/gcc/libdriver.a(gpio.o)
+                0x00000000000006fe                GPIOPadConfigSet
+ .text.GPIOPinWrite
+                0x000000000000082e        0x6 ti/driverlib/gcc/libdriver.a(gpio.o)
+                0x000000000000082e                GPIOPinWrite
+ .text.GPIOPinTypeGPIOOutput
+                0x0000000000000834       0x1c ti/driverlib/gcc/libdriver.a(gpio.o)
+                0x0000000000000834                GPIOPinTypeGPIOOutput
+ .text.SysCtlPeripheralReady
+                0x0000000000000850       0x28 ti/driverlib/gcc/libdriver.a(sysctl.o)
+                0x0000000000000850                SysCtlPeripheralReady
+ .text.SysCtlPeripheralEnable
+                0x0000000000000878       0x24 ti/driverlib/gcc/libdriver.a(sysctl.o)
+                0x0000000000000878                SysCtlPeripheralEnable
+ .text.SysCtlDelay
+                0x000000000000089c        0x8 ti/driverlib/gcc/libdriver.a(sysctl.o)
+                0x000000000000089c                SysCtlDelay
+ *(.rodata*)
+                0x00000000000008a4                _etext = .
+
+.glue_7         0x00000000000008a4        0x0
+ .glue_7        0x0000000000000000        0x0 linker stubs
+
+.glue_7t        0x00000000000008a4        0x0
+ .glue_7t       0x0000000000000000        0x0 linker stubs
+
+.vfp11_veneer   0x00000000000008a4        0x0
+ .vfp11_veneer  0x0000000000000000        0x0 linker stubs
+
+.v4_bx          0x00000000000008a4        0x0
+ .v4_bx         0x0000000000000000        0x0 linker stubs
+
+.iplt           0x00000000000008a4        0x0
+ .iplt          0x0000000000000000        0x0 Segment_Test.o
+
+.rel.dyn        0x00000000000008a4        0x0
+ .rel.iplt      0x0000000000000000        0x0 Segment_Test.o
+
+.data           0x0000000020000000        0x1 load address 0x00000000000008a4
+                0x0000000020000000                _data = .
+ *(vtable)
+ *(.data*)
+ .data.g_ui8ButtonStates
+                0x0000000020000000        0x1 ti/drivers/buttons.o
+                0x0000000020000001                _edata = .
+
+.igot.plt       0x0000000020000004        0x0 load address 0x00000000000008a8
+ .igot.plt      0x0000000000000000        0x0 Segment_Test.o
+
+.bss            0x0000000020000004      0x40c load address 0x00000000000008a8
+                0x0000000020000004                _bss = .
+ *(.bss*)
+ .bss.pui32Stack
+                0x0000000020000004      0x400 ti/startup.o
+ .bss.ui8SwitchClockB.4254
+                0x0000000020000404        0x1 ti/drivers/buttons.o
+ .bss.ui8SwitchClockA.4253
+                0x0000000020000405        0x1 ti/drivers/buttons.o
+ *(COMMON)
+ *fill*         0x0000000020000406        0x2 
+ COMMON         0x0000000020000408        0x8 Segment_Test.o
+                0x0000000020000408                ret_button
+                0x000000002000040c                ui32Loop
+                0x0000000020000410                _ebss = .
+LOAD Segment_Test.o
+LOAD ti/startup.o
+LOAD ti/utils/ustdlib.o
+LOAD ti/drivers/buttons.o
+LOAD ti/usblib/gcc/libusb.a
+LOAD ti/driverlib/gcc/libdriver.a
+LOAD /usr/lib/gcc/arm-none-eabi/4.8.2/armv7e-m/softfp/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/4.8.2/../../../arm-none-eabi/lib/armv7e-m/softfp/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/4.8.2/../../../arm-none-eabi/lib/armv7e-m/softfp/libm.a
+OUTPUT(build/test.elf elf32-littlearm)
+
+.comment        0x0000000000000000       0x1f
+ .comment       0x0000000000000000       0x1f Segment_Test.o
+                                         0x20 (size before relaxing)
+ .comment       0x0000000000000000       0x20 ti/startup.o
+ .comment       0x0000000000000000       0x20 ti/drivers/buttons.o
+ .comment       0x0000000000000000       0x20 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .comment       0x0000000000000000       0x20 ti/driverlib/gcc/libdriver.a(sysctl.o)
+
+.ARM.attributes
+                0x0000000000000000       0x37
+ .ARM.attributes
+                0x0000000000000000       0x37 Segment_Test.o
+ .ARM.attributes
+                0x0000000000000037       0x37 ti/startup.o
+ .ARM.attributes
+                0x000000000000006e       0x37 ti/drivers/buttons.o
+ .ARM.attributes
+                0x00000000000000a5       0x37 ti/driverlib/gcc/libdriver.a(gpio.o)
+ .ARM.attributes
+                0x00000000000000dc       0x37 ti/driverlib/gcc/libdriver.a(sysctl.o)
